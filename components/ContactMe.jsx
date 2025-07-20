@@ -22,9 +22,9 @@ const ContactMe = () => {
 
             <div className="space-y-2 text-gray-300">
               <p><strong className="text-teal-400">Name:</strong> Lakesh Shrestha</p>
-              <p><strong className="text-teal-400">Location:</strong> Kathmandu, Nepal</p>
-              <p><strong className="text-teal-400">Email:</strong> lakeshshrestha.design@gmail.com</p>
-              <p><strong className="text-teal-400">Phone:</strong> +977-9864171810</p>
+              <p><strong className="text-teal-400">Location:</strong> madhyapur Thimi - 05 |  Bhaktapur </p>
+              <p><strong className="text-teal-400">Email:</strong> lakeshshrestha88@gmail.com</p>
+              <p><strong className="text-teal-400">Phone:</strong> 9808979817</p>
             </div>
 
             <div className="flex space-x-6 mt-6">
