@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Link from 'next/link';
 
 const MyPortfolio = () => {
   return (
@@ -26,9 +26,12 @@ const MyPortfolio = () => {
         <button className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
           Graphic Design
         </button>
-        <button className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
-          Web Design
-        </button>
+
+        <Link href="/projects" passHref>
+          <button className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition cursor-pointer">
+            Web Design
+          </button>
+        </Link>
       </div>
     </div>
   );
