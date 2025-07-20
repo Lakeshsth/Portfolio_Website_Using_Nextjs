@@ -1,8 +1,17 @@
-import React from 'react'
+'use client';
+
+import React from 'react';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
+
+  const handleHireMeClick = () => {
+    router.push('/contact'); // Navigate to the contact page
+  };
+
   return (
-    <div 
+    <div
       className="relative flex justify-center items-center h-screen w-full text-center flex-col overflow-hidden"
       style={{ top: 0, left: 0 }}
     >
@@ -32,11 +41,12 @@ const Hero = () => {
       <button
         className="relative mt-8 px-8 py-3 bg-teal-400 text-white rounded-md font-semibold hover:bg-teal-500 transition"
         type="button"
+        onClick={handleHireMeClick}
       >
         Hire Me Now
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
