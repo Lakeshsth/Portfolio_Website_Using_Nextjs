@@ -44,7 +44,7 @@ const Services = () => {
         </div>
         <div className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300">
           <FaPalette className="text-teal-400 text-4xl mb-4" />
-          <h3 className="text-xl font-semibold mb-2">Grahic Designing</h3>
+          <h3 className="text-xl font-semibold mb-2">Graphic Designing</h3>
           <p className="text-gray-300 text-sm leading-relaxed">
             With 3 years of experience in graphic design, I specialize in crafting beautiful and intuitive user interfaces and
             experiences—ensuring every design is user-focused before a single line of code is written.
