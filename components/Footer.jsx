@@ -11,9 +11,11 @@ const Footer = () => {
       />
 
       <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="text-2xl font-bold" style={{ fontFamily: 'Neue Machina' }}>
-          <span className="text-teal-400">Lakesh</span> Shrestha
-        </div>
+        <Link href="/" className="text-white text-2xl font-bold" style={{ fontFamily: "Neue Machina" }}>
+          <div>
+            <span className="text-teal-400">Lakesh</span> Shrestha
+          </div>
+        </Link>
 
         <nav className="space-x-6 text-white hidden md:flex">
           <Link href="/" className="hover:text-teal-400 transition">

@@ -23,9 +23,13 @@ const MyPortfolio = () => {
       </p>
 
       <div className="relative flex gap-4 mb-12">
-        <button className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
-          Graphic Design
-        </button>
+        <a
+              href="/Lakesh-Shrestha-Graphic-Designer.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
+              Graphic Design
+          </a>
 
         <Link href="/projects" passHref>
           <button className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition cursor-pointer">

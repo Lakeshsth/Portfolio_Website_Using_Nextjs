@@ -23,12 +23,11 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b border-teal-400/20 px-4 md:px-20 py-4 flex items-center justify-between">
-      <div
-        className="text-white text-2xl font-bold"
-        style={{ fontFamily: "Neue Machina" }}
-      >
-        <span className="text-teal-400">Lakesh</span> Shrestha
-      </div>
+      <Link href="/" className="text-white text-2xl font-bold" style={{ fontFamily: "Neue Machina" }}>
+        <div>
+          <span className="text-teal-400">Lakesh</span> Shrestha
+        </div>
+      </Link>
 
       <div className="hidden md:flex space-x-8 text-white font-medium">
         {navItems.map((item) => {
