@@ -4,16 +4,14 @@ const techStack = [
   "React",
   "Next.js",
   "JavaScript",
-  "TypeScript",
   "Tailwind CSS",
+  "Python / Django",
   "Node.js",
   "Express",
   "MongoDB",
-  "GraphQL",
-  "Docker",
+  "React",
   "AWS",
   "Git",
-  "Redux",
 ];
 
 const TechStackMarquee = () => {

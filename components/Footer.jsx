@@ -19,7 +19,7 @@ const Footer = () => {
           <Link href="/" className="hover:text-teal-400 transition">
             Home
           </Link>
-          <Link href="/about" className="hover:text-teal-400 transition">
+          <Link href="/aboutme" className="hover:text-teal-400 transition">
             About
           </Link>
           <Link href="/certification" className="hover:text-teal-400 transition">

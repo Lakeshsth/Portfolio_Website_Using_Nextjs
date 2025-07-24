@@ -59,7 +59,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="absolute top-full right-0 w-full bg-black bg-opacity-90 flex flex-col items-center py-[15rem] space-y-4 md:hidden rounded-2xl">
-          <div className="w-full border-b border-gray-300 py-6 flex justify-center mt-[-50px]">
+          <div className="w-full border-b border-gray-300 py-6c flex justify-center mt-[-50px]">
             <h1
               className="text-5xl border py-2 px-4"
               style={{ fontFamily: "Neue Machina" }}

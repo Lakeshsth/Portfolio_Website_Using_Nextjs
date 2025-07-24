@@ -22,7 +22,7 @@ const ContactMe = () => {
 
             <div className="space-y-2 text-gray-300">
               <p><strong className="text-teal-400">Name:</strong> Lakesh Shrestha</p>
-              <p><strong className="text-teal-400">Location:</strong> madhyapur Thimi - 05 |  Bhaktapur </p>
+              <p><strong className="text-teal-400">Location:</strong> Madhyapur Thimi - 05 |  Bhaktapur </p>
               <p><strong className="text-teal-400">Email:</strong> lakeshshrestha88@gmail.com</p>
               <p><strong className="text-teal-400">Phone:</strong> 9808979817</p>
             </div>
@@ -54,7 +54,7 @@ const ContactMe = () => {
                 type="text"
                 id="name"
                 className="w-full px-4 py-2 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
-                placeholder="John Doe"
+                placeholder="LakAce"
                 required
               />
             </div>

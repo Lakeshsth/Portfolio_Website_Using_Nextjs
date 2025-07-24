@@ -21,7 +21,7 @@ const Hero = () => {
       />
 
       <h1
-        className="relative text-white text-3xl md:text-4xl font-normal"
+        className="relative text-white text-xl md:text-4xl font-normal"
         style={{ fontFamily: 'Neue Machina', lineHeight: '1.3' }}
       >
         Building{' '}
