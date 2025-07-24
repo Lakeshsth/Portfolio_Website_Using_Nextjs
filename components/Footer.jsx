@@ -34,13 +34,13 @@ const Footer = () => {
         </nav>
 
         <div className="flex space-x-6 text-teal-400 text-xl">
-          <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="hover:text-white transition">
+          <a href="https://www.facebook.com/lak.ace.2025/" target="_blank" rel="noreferrer" aria-label="Facebook" className="hover:text-white transition">
             <FaFacebookF />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter" className="hover:text-white transition">
             <FaTwitter />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-white transition">
+          <a href="https://www.linkedin.com/in/lakesh-shrestha-737990292/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-white transition">
             <FaLinkedinIn />
           </a>
           <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" className="hover:text-white transition">

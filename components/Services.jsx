@@ -15,7 +15,7 @@ const Services = () => {
         <span className="italic text-teal-400">efficient</span>, and{' '}
         <span className="italic text-teal-400">reliable</span> solutions.
         <br />
-        <span className="block mt-4 font-semibold text-white">My Services</span>
+        <span className="block mt-4 font-semibold text-white">What I Can Do</span>
       </h2>
 
       <div className="relative grid gap-10 md:grid-cols-3 text-left">
@@ -40,6 +40,14 @@ const Services = () => {
           <h3 className="text-xl font-semibold mb-2">UI/UX Prototyping</h3>
           <p className="text-gray-300 text-sm leading-relaxed">
             Crafting beautiful, intuitive user interfaces and experiences using tools like Figma before coding begins.
+          </p>
+        </div>
+        <div className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300">
+          <FaPalette className="text-teal-400 text-4xl mb-4" />
+          <h3 className="text-xl font-semibold mb-2">Grahic Designing</h3>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            With 3 years of experience in graphic design, I specialize in crafting beautiful and intuitive user interfaces and
+            experiences—ensuring every design is user-focused before a single line of code is written.
           </p>
         </div>
       </div>

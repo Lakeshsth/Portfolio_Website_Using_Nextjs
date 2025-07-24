@@ -19,21 +19,6 @@ const Projects = () => {
       </h2>
 
       <div className="relative grid gap-10 md:grid-cols-3 text-left">
-        {/* LakFood Project */}
-        <a
-          href="https://hotel-wesbite-git-main-lakesh-shresthas-projects-eb1139af.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300 hover:scale-105 transform"
-        >
-          <FaHamburger className="text-teal-400 text-4xl mb-4" />
-          <h3 className="text-xl font-semibold mb-2">LakFood – Food Delivery</h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
-            A React-based food delivery platform built to practice component structure, UI design, and state handling.
-          </p>
-        </a>
-
-        {/* Natural Lak Hotel Project */}
         <a
           href="https://hotel-wesbite-git-main-lakesh-shresthas-projects-eb1139af.vercel.app"
           target="_blank"
@@ -47,45 +32,60 @@ const Projects = () => {
           </p>
         </a>
 
-        {/* Bubble Game Project */}
         <a
-          href="https://hotel-wesbite-git-main-lakesh-shresthas-projects-eb1139af.vercel.app"
+          href="https://chef-cha.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300 hover:scale-105 transform"
         >
           <FaGamepad className="text-teal-400 text-4xl mb-4" />
-          <h3 className="text-xl font-semibold mb-2">Bubble Game</h3>
+          <h3 className="text-xl font-semibold mb-2">Chef Cha</h3>
           <p className="text-gray-300 text-sm leading-relaxed">
-            A simple interactive game developed to explore event handling and dynamic rendering in React.
+            Chef Cha is a modern chef hiring platform built with Next.js by Lakesh and Prasidha. It connects users with professional chefs for home, event, or business needs. With a clean interface and real-time booking features, Chef Cha makes hiring skilled chefs easy and efficient.
           </p>
         </a>
+
         <a
-          href="https://hotel-wesbite-git-main-lakesh-shresthas-projects-eb1139af.vercel.app"
+          href="https://github.com/Lakeshsth/Krishi-Saathi-.git"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300 hover:scale-105 transform"
         >
           <FaGamepad className="text-teal-400 text-4xl mb-4" />
-          <h3 className="text-xl font-semibold mb-2">Bubble Game</h3>
+          <h3 className="text-xl font-semibold mb-2">Krishi Saathi</h3>
           <p className="text-gray-300 text-sm leading-relaxed">
-            A simple interactive game developed to explore event handling and dynamic rendering in React.
+            Krishi Saathi is an innovative web platform developed for the hackathon, focusing on Agriculture and Rural Development.
           </p>
         </a>
+
         <a
-          href="https://hotel-wesbite-git-main-lakesh-shresthas-projects-eb1139af.vercel.app"
+          href="https://github.com/Lakeshsth/LakFoodWebsite.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300 hover:scale-105 transform"
+        >
+          <FaHamburger className="text-teal-400 text-4xl mb-4" />
+          <h3 className="text-xl font-semibold mb-2">LakFood – Food Delivery</h3>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            A React-based food delivery platform built to practice component structure, UI design, and state handling.
+          </p>
+        </a>
+
+        <a
+          href="https://github.com/Lakeshsth/Job-Portal-Django-Project.git"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300 hover:scale-105 transform"
         >
           <FaGamepad className="text-teal-400 text-4xl mb-4" />
-          <h3 className="text-xl font-semibold mb-2">Bubble Game</h3>
+          <h3 className="text-xl font-semibold mb-2">Job Portal</h3>
           <p className="text-gray-300 text-sm leading-relaxed">
-            A simple interactive game developed to explore event handling and dynamic rendering in React.
+            Job Portal is a web-based application built with Django that connects job seekers with employers. It includes features like authentication, job filtering, admin dashboard, and email notifications.
           </p>
         </a>
+
         <a
-          href="https://hotel-wesbite-git-main-lakesh-shresthas-projects-eb1139af.vercel.app"
+          href="https://github.com/Lakeshsth/Bubble-Game-Using-JS.git"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg backdrop-blur-md transition duration-300 hover:scale-105 transform"

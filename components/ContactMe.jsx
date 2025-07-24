@@ -37,7 +37,7 @@ const ContactMe = () => {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/lakesh-shrestha-73799029"
+                href="https://www.linkedin.com/in/lakesh-shrestha-737990292/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal-400 hover:text-teal-300 underline"
