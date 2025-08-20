@@ -30,7 +30,7 @@ const Hero = () => {
         <span className="italic text-teal-400">scalable</span> web solutions.
         <br />
         <span className="block mt-4 font-semibold text-white">
-          Lakesh Shrestha — Full Stack Developer
+          Lakesh Shrestha — Graphic Designer  +   Full Stack Developer 
         </span>
       </h1>
 

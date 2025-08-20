@@ -16,30 +16,49 @@ const AboutMe = () => {
 
         <Section title="Summary">
           <p>
-            Aspiring full-stack developer with a foundation in both front-end and back-end technologies, transitioning from a graphic design background. Passionate about building impactful, user-friendly web applications.
-          </p>
-          <p>
-            Skilled in Python, Django, React, and Git. Eager to contribute to real-world projects in a collaborative and creative development environment.
+            Creative and detail-oriented <strong>Graphic Designer & Full-Stack Developer</strong> 
+            with 3+ years of professional experience delivering impactful designs and building responsive web applications. 
+            Skilled in blending visual creativity with technical expertise to produce both engaging designs and functional digital solutions.
           </p>
         </Section>
 
         <Section title="Work Experience">
-          <p>
-            <strong>Graphic Designer (Remote) | 2021 - Present</strong><br />
-            Delivered creative solutions for 10+ brands including Naasa Security Broker 58, Arrows Lifestyle, Ganeshman Singh Hospital, Snowbird, Yashi Labs, Pumori Journey, Yashi Academy, Postory, SARCS, and Pearl Jewellers.
-          </p>
-        </Section>
+          <div>
+            <strong>Graphic Designer | Pumori Journeys (Full-time)</strong> | Oct 2023 – Jul 2024 | <a href="https://www.pumorijourneys.com" className="text-teal-400 underline">Website</a>
+            <ul className="list-disc pl-5 mt-2 space-y-1">
+              <li>Designed digital and print materials for the travel & tourism industry.</li>
+              <li>Created brochures, social media visuals, and campaigns to promote tourism services.</li>
+              <li>Maintained a cohesive and modern brand identity across all platforms.</li>
+            </ul>
+          </div>
 
-        <Section title="Courses & Training">
-          <p>
-            <strong>Sipalaya Info Tech</strong> – Completed a 3-month Python & Django Development course. Gained hands-on experience with REST APIs, MySQL, and deployment.
-          </p>
+          <div className="mt-4">
+            <strong>Graphic Designer | Snowbird Studios (Full-time)</strong> | Apr 2024 – May 2025 | <a href="https://snowbirdstudios.com.np" className="text-teal-400 underline">Website</a>
+            <ul className="list-disc pl-5 mt-2 space-y-1">
+              <li>Successfully delivered design projects for 10+ companies across healthcare, edtech, finance, fashion, and hospitality.</li>
+              <li>Collaborated with brands such as Naasa Security Broker 58, Arrows Lifestyle, Ganeshman Singh Hospital, Yashi Labs, Yashi Academy App, Sarcs- Finance Company, and Pearl Jewellers.</li>
+              <li>Specialized in branding, logo design, social media creatives, UI/UX mockups, and digital marketing assets.</li>
+              <li>Worked with cross-functional teams to ensure designs matched client expectations and enhanced brand identity.</li>
+            </ul>
+          </div>
+
+          <div className="mt-4">
+            <strong>Graphic Designer | Postory Production Pvt. Ltd.</strong> | Jul 2021 – Present | <a href="https://postory.com.np" className="text-teal-400 underline">Website</a>
+            <ul className="list-disc pl-5 mt-2 space-y-1">
+              <li>Designed branding and marketing materials for multiple restaurants and businesses, including:</li>
+              <li>Michael Grill Restaurant – Menu Design, Social Media & Promotional Graphics</li>
+              <li>Cafe MRP Restaurant – Logo, Social Media Creatives, and Identity Design</li>
+              <li>Ojas International – Logo, Corporate Materials, Digital Campaigns, and Promotional Graphics</li>
+            </ul>
+          </div>
         </Section>
 
         <Section title="Technical Skills">
-          <p>
-            Python, Django, JavaScript, React, Next.js, MySQL, MongoDB (basic), HTML/CSS, Tailwind CSS, Bootstrap, Git, GitHub, Figma, Photoshop, Illustrator, Premiere Pro, REST APIs, VS Code, Power BI, JIRA, Confluence.
-          </p>
+          <p><strong>Design & Illustration Tools:</strong> Adobe Photoshop, Illustrator, InDesign</p>
+          <p><strong>Video & Motion Graphics:</strong> Adobe Premiere Pro, After Effects, Canva Pro (motion), CapCut</p>
+          <p><strong>UI/UX & Prototyping:</strong> Figma, Sketch, Canva</p>
+          <p><strong>Typography & Branding:</strong> Logo design, Brand Identity creation, Layout design, Poster/Banner design</p>
+          <p><strong>Web & Creative Edge:</strong> Django React.js, Next.js, Tailwind CSS (useful for UI/UX projects)</p>
         </Section>
 
         <Section title="Education">
@@ -50,16 +69,9 @@ const AboutMe = () => {
           </p>
         </Section>
 
-        <Section title="Projects">
-          <ul className="list-disc pl-5 space-y-1">
-            <li><strong>Krishi Saathi</strong> – Runner-Up, Hack the Future 2025</li>
-            <li><strong>Job Portal</strong> – Django-based with resume upload & admin dashboard</li>
-            <li>Bubble Game, Responsive Food Site, Resume Uploader, CRUD System, To-Do App</li>
-          </ul>
-        </Section>
-
+       
         <Section title="Soft Skills & Languages">
-          <p>Communication, Teamwork, Problem-Solving, Time Management, Leadership</p>
+          <p>Creativity, Communication, Teamwork, Problem-Solving, Time Management, Leadership</p>
           <p>Languages: Nepali (Native), English (Fluent)</p>
         </Section>
 
